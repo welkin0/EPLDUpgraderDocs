@@ -24,7 +24,7 @@ Standalone Application
 
 The ``standalone`` app is one that runs on a dedicated host/VM and makes remote connections to the 
 APIC opposed to running as a container on the APIC. The resources for this app are very light, 
-howeever, some users may still prefer to preserve the APIC resources and run on dedicated machines.
+however, some users may still prefer to preserve the APIC resources and run on dedicated machine.
 
 To execute in ``standalone`` mode, you need a host with docker installed.  See the 
 `Docker documentation <https://docs.docker.com/install/>`_ for installing docker on your host.  
@@ -35,6 +35,6 @@ Once installed, execute the following command to download the EPLDUpgrader docke
     host$ docker run --name ept -p 5000:443 -d agccie/epldupgrader:latest
 
 The command will start an instance of EPLDUpgrader with the web server running on port 
-5000. Login to the web UI at `https://localhost:5000 <https://localhost:5000>`_.  See the usage 
-section for further details regarding how to use the app.
+5000. Login to the web UI at `https://localhost:5000 <https://localhost:5000>`_.  See the 
+ :ref:`usage` section for further details regarding how to use the app.
 

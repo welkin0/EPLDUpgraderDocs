@@ -5,13 +5,13 @@ Usage
 
 This section assumes EPLDUpgrader has already been installed. Please refer to the 
 :ref:`install` for more details regarding installation steps. This page will cover general usage of 
-the application.  Note that some sections are specific to `standalone` mode only.
+the application.  Note that some sections are specific to ``standalone`` mode only.
 
 User Accounts
 -------------
 
-.. note:: This section is only applicable to `standalone` mode. In `app` mode the APIC handles all 
-          authentication and authorization requests.
+.. note:: This section is only applicable to ``standalone`` mode. In ``app`` mode the APIC handles
+          all authentication and authorization requests.
 
 Once the application is installed, the default credentials are as follows:
 
@@ -25,7 +25,7 @@ access along with a read-only **user** role.
 Fabrics
 -------
 
-.. note:: This section is only applicable to `standalone` mode. In `app` mode the fabric is auto 
+.. note:: This section is only applicable to ``standalone`` mode. In ``app`` mode the fabric is auto 
           discovered when the app is installed.
 
 Click the Home |home-icon| icon to access the home page and add fabrics to manage. Multiple fabrics 
@@ -60,7 +60,7 @@ icon to apply your changes.
 Connectivity
 ^^^^^^^^^^^^
 
-.. note:: APIC hostname and API credentials are auto detected in `app` mode and cannot be changed.
+.. note:: APIC hostname and API credentials are auto detected in ``app`` mode and cannot be changed.
 
 Connectivity settings containing hostname and APIC credentials are required to access the fabric. An 
 APIC username with **admin role** on the **all** security domain is required. SSH credentials are 
