@@ -7,6 +7,24 @@ This section assumes EPLDUpgrader has already been installed. Please refer to th
 :ref:`install` for more details regarding installation steps. This page will cover general usage of 
 the application.  Note that some sections are specific to ``standalone`` mode only.
 
+The general usage is as follows:
+
+* ``standalone`` under :ref:`user_accounts` update the default username and password and create 
+  extra read-only users as needed.
+
+* ``standalone`` add one or more fabrics to monitor as described under :ref:`fabrics`
+
+* Ensure that valid ssh credentials have been configured under :ref:`settings`
+
+* Under the :ref:`firmware` section, create an epld image from an existing nxos image currently
+  present under the APIC firmware.
+
+* Under the :ref:`devices` section, select one or more devices to upgrade. You will be prompted
+  for the epld image previously created under the firmware step along with a few other upgrade
+  options.
+
+.. _user_accounts:
+
 User Accounts
 -------------
 
@@ -21,6 +39,8 @@ Once the application is installed, the default credentials are as follows:
 You can click the Users |users-icon| icon at the top right of the page to modify credentials along 
 with adding and modifying users. The app supports an **admin** role which has full read and write 
 access along with a read-only **user** role.
+
+.. _fabrics:
 
 Fabrics
 -------
@@ -118,5 +138,15 @@ limited to 60 seconds.
 .. |fabric-settings-advanced| image:: imgs/fabric-settings-advanced.png
    :align: middle
 
+
+.. _firmware:
+
+Firmware
+--------
+
+.. _devices:
+
+Devices
+-------
 
 
